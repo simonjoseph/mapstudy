@@ -1,0 +1,30 @@
+{
+  "name": "sanityio-geopoint-demo",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "post-update": "yarn upgrade --latest"
+  },
+  "dependencies": {
+    "@sanity/client": "2.6.5-client-versioning.18",
+    "@sanity/icons": "1.0.5",
+    "@sanity/image-url": "0.140.22",
+    "@sanity/ui": "0.33.10",
+    "leaflet": "1.7.1",
+    "leaflet-draw": "1.0.4",
+    "lodash.debounce": "4.0.8",
+    "next": "latest",
+    "next-sanity": "0.1.10",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-leaflet": "3.1.0",
+    "styled-components": "5.2.1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "sanity.io"
+  ],
+  "description": "A demo of new GROQ features"
+}
